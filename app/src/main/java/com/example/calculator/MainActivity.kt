@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         button1.setOnClickListener{digitClick("1")}
         button7.setOnClickListener{acClick()}
         button6.setOnClickListener { plusMinusClick() }
-        button5.setOnClickListener {  digitClick("000")}
+        button5.setOnClickListener {  digitClick("00")}
         button4.setOnClickListener { divideClick() }
         button11.setOnClickListener { digitClick("7") }
         button10.setOnClickListener { digitClick("8") }
