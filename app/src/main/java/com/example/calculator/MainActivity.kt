@@ -2,9 +2,12 @@ package com.example.calculator
 
 import android.annotation.SuppressLint
 import android.app.PictureInPictureParams
+import android.content.Intent
 import android.graphics.Point
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Rational
 import android.widget.Button
 import androidx.annotation.RequiresApi
@@ -14,6 +17,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var simpleFloatingWindow: SimpleFloatingWindow
     private var solution: Boolean = false
 
     // переменные для вычисления
@@ -27,7 +31,13 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button2.setOnClickListener{pipEnter()}
+        button2.setOnClickListener{
+            if (canDrawOverlays) {
+                simpleFloatingWindow.show()
+            } else {
+                startManageDrawOverlaysPermission()
+            }
+        }
         val button1: Button = findViewById(R.id.button19)
         button1.setOnClickListener{digitClick("1")}
         button7.setOnClickListener{acClick()}
@@ -51,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         button20.setOnClickListener { solutionClick() }
         button.setOnClickListener { removeLast() }
         textView.text = "0"
+        simpleFloatingWindow = SimpleFloatingWindow(applicationContext)
     }
 
     private fun pipEnter() {
@@ -222,6 +233,20 @@ class MainActivity : AppCompatActivity() {
 
     private fun acClick(){
         textView.text ="0"
+    }
+    private fun startManageDrawOverlaysPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Intent(
+                Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                Uri.parse("package:${applicationContext.packageName}")
+            ).let {
+                startActivityForResult(it, REQUEST_CODE_DRAW_OVERLAY_PERMISSION)
+            }
+        }
+    }
+
+    companion object {
+        private const val REQUEST_CODE_DRAW_OVERLAY_PERMISSION = 5
     }
 }
 
