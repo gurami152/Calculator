@@ -1,14 +1,11 @@
 package com.example.calculator
 
 import android.annotation.SuppressLint
-import android.app.PictureInPictureParams
 import android.content.Intent
-import android.graphics.Point
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
-import android.util.Rational
 import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -31,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button2.setOnClickListener{
+        closeImageButton.setOnClickListener{
             if (canDrawOverlays) {
                 simpleFloatingWindow.show()
             } else {

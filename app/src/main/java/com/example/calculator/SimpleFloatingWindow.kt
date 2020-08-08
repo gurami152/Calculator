@@ -76,7 +76,6 @@ class SimpleFloatingWindow constructor(private val context: Context) {
     init {
         with(floatView) {
             closeImageButton.setOnClickListener { dismiss() }
-            textView3.text = "I'm a float view!"
         }
 
         floatView.setOnTouchListener(onTouchListener)
