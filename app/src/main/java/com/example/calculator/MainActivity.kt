@@ -1,11 +1,16 @@
 package com.example.calculator
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
+import android.app.PictureInPictureParams
+import android.graphics.Point
+import android.os.Build
 import android.os.Bundle
+import android.util.Rational
 import android.widget.Button
+import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlin.Double as Double
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,11 +21,13 @@ class MainActivity : AppCompatActivity() {
     private var operation:Int? = null // + =0 | - =1 | * =2 | / =3|
     private var previousResult:Double = 0.0
     private var zeroError:Boolean = false
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
 
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        button2.setOnClickListener{pipEnter()}
         val button1: Button = findViewById(R.id.button19)
         button1.setOnClickListener{digitClick("1")}
         button7.setOnClickListener{acClick()}
@@ -44,6 +51,10 @@ class MainActivity : AppCompatActivity() {
         button20.setOnClickListener { solutionClick() }
         button.setOnClickListener { removeLast() }
         textView.text = "0"
+    }
+
+    private fun pipEnter() {
+
     }
 
     private fun removeLast() {
