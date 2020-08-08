@@ -13,9 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="16dp"
         android:layout_gravity="right"
-        android:background="#8C8C8C"
+        android:background="#000000"
         android:gravity="right"
         android:text="X"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
     <TextView
