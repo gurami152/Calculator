@@ -8,6 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/closeImageButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="#000000"
+        android:foreground="@mipmap/float_round" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -316,12 +323,6 @@
             </TableRow>
 
         </TableLayout>
-
-        <Button
-            android:id="@+id/closeImageButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
 
     </LinearLayout>
 
