@@ -55,6 +55,9 @@ class Calculations(textViewMain: TextView, textViewSecondary: TextView) {
 
     fun acClick(){
         textMain.text ="0"
+        solution = false
+        textSecondary.text=""
+        firstNumber=null
     }
 
     fun solutionClick() {

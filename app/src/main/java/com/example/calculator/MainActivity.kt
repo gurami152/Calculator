@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         closeImageButton.setOnClickListener{
             if (canDrawOverlays) {
                 simpleFloatingWindow.show()
+                this.moveTaskToBack(true)
             } else {
                 startManageDrawOverlaysPermission()
             }
