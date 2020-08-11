@@ -11,13 +11,13 @@
     <Button
         android:id="@+id/closeImageButton"
         android:layout_width="match_parent"
-        android:layout_height="16dp"
+        android:layout_height="25dp"
         android:layout_gravity="right"
         android:background="#000000"
         android:gravity="right"
         android:text="X"
         android:textColor="#FFFFFF"
-        android:textSize="14sp" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,51 +61,51 @@
 
                 <Button
                     android:id="@+id/button7"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="C"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="@string/backSpace"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button6"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="@string/plusminus"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button4"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_buttons_orange"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="/"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
             </TableRow>
 
@@ -116,51 +116,51 @@
 
                 <Button
                     android:id="@+id/button11"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="7"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button10"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="8"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button9"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="9"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button8"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_buttons_orange"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="*"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -170,51 +170,51 @@
 
                 <Button
                     android:id="@+id/button15"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="4"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button14"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="5"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button13"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="6"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button12"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_buttons_orange"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="-"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -224,51 +224,51 @@
 
                 <Button
                     android:id="@+id/button19"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="1"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button18"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="4dp"
                     android:text="2"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button17"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="3"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button16"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_buttons_orange"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="+"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -278,51 +278,51 @@
 
                 <Button
                     android:id="@+id/button22"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="0"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button5"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="00"
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button21"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_corners"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="."
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/button20"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:layout_margin="0dp"
                     android:background="@drawable/rounded_buttons_orange"
                     android:padding="0dp"
                     android:paddingLeft="0dp"
                     android:text="="
                     android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp" />
             </TableRow>
 
         </TableLayout>
